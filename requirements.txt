@@ -1,0 +1,7 @@
+streamlit 
+rembg
+torch 
+diffusers
+transformers 
+accelerate
+safetensors 
