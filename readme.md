@@ -30,29 +30,9 @@ A live demo is available at: [HuggingFace Space](https://huggingface.co/spaces/a
   - `opencv-python`
   - `Pillow`
 
-#### Clone the Repository
-```
-git clone https://github.com/JrMlMaurya/3EYE.git
-cd 3EYE
-```
-
-You can install the required libraries using `pip`:
-
-```
-pip install -r requirements.txt
-```
-
-Run the 'app.py' file using `streamlit`:
-
-``` 
-streamlit run app.py
-```
-
 ## Usages
 
 - Upload any image and get the background generated based on the prompt
-
-## Technical Details
 
 ### Diffusion Model Inpainting
 
@@ -76,7 +56,6 @@ One of the primary challenges was generating a perfect mask for the background. 
 
 ### Inpainting Parameters
 Another challenge was adjusting the inpainting parameters. Different images required different settings for optimal results. Tuning parameters such as the diffusion steps, noise levels, and mask areas required trial and error to balance foreground preservation and background regeneration.
-
 
 #### Note:
 
