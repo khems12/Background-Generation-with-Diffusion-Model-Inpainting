@@ -12,24 +12,10 @@ A live demo is available at: [HuggingFace Space](https://huggingface.co/spaces/a
 
 
 ## Table of Contents
-- [Installation](#installation)
 - [Usage](#usage)
-- [Technical Details](#technical-details)
 - [Challenges Faced](#challenges-faced)
 
 ---
-
-## Installation
-
-### Prerequisites
-- Python 3.8 or higher
-- [Streamlit](https://streamlit.io/) for the web UI
-- Other required libraries: 
-  - `torch`
-  - `diffusers`
-  - `opencv-python`
-  - `Pillow`
-
 ## Usages
 
 - Upload any image and get the background generated based on the prompt
